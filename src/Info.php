@@ -97,7 +97,7 @@ class Info extends Card
      *
      * @return array
      */
-    public function jsonSerialize()
+    public function jsonSerialize(): array
     {
         return array_merge([
             'withHeading' => $this->withHeading,
